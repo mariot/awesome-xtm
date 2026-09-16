@@ -20,6 +20,7 @@ Inspired by [Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial
 
 - **[gh-xtm-launchpad](https://github.com/mariot/gh-xtm-launchpad)** — A GitHub CLI extension (Go/Cobra) that syncs the `connectors` and `collectors` upstream repos locally, builds their Docker images, and runs them with an env file generated from `docker-compose.yml` — a fast local loop for developing/testing a connector or collector image.
 - **[poetry2uv](https://github.com/mariot/poetry2uv)** — A CLI that migrates a Poetry-managed `pyproject.toml` to a uv-native one, including the "conditional local-path dependency" pattern used by OpenAEV collectors that `uvx migrate-to-uv` can't handle. Verified to produce package sets identical to `poetry install` across the full collectors repo.
+- **[xtm-copilot-skills](https://github.com/mariot/xtm-copilot-skills)** — GitHub Copilot skills and Docker Compose stacks to spawn an isolated OpenAEV, OpenCTI, or full XTM suite (with XTM Composer, Mailpit, RabbitMQ, etc.) from a released image or a local build, for testing connectors, collectors, injectors, and executors through Composer or the platform directly.
 
 ## Testing & Simulation
 
