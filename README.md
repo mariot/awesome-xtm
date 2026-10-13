@@ -24,6 +24,7 @@ Inspired by [Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial
 
 ## Testing & Simulation
 
+- **[faker-cti](https://github.com/mariot/faker-cti)** — Faker providers (usable with factory_boy) that generate test data for connectors, collectors and injectors: STIX 2.1 objects and identifiers matching `stix2`/`pycti`, TLP/PAP markings, MITRE ATT&CK, CVEs, OpenCTI enrichment messages and connector configs, and OpenAEV implant names, expectations and results.
 - **[Mimikyu](https://github.com/mariot/Mimikyu)** — A small Flask app to simulate and manage inject expectations and traces: a web UI plus API endpoints that generate payloads for expectations, documents, and security platforms, backed by a self-initializing SQLite database.
 - **[ofapi](https://github.com/mariot/ofapi)** — Fake APIs (FastAPI) simulating third-party data sources and services (Shodan, Censys, Slack, Gmail, Microsoft Graph, and more), so OpenCTI connectors and OpenAEV injectors/collectors can be exercised end to end without real credentials or external network calls.
 
